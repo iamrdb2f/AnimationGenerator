@@ -1,0 +1,58 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(10);
+    }
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: bold;
+}
+
+.text-flow-container {
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+}
+
+.animated-text-mille {
+    -fx-font-family: 'Roboto';
+    -fx-font-size: 150px;
+    -fx-font-weight: bold;
+    -fx-fill: white;
+    -fx-text-alignment: center;
+    -fx-animation: fadeIn 3s ease-in-out;
+}
+
+.animated-text-thanks {
+    -fx-font-family: 'Roboto';
+    -fx-font-size: 200px;
+    -fx-font-weight: bold;
+    -fx-fill: white;
+    -fx-text-alignment: center;
+    -fx-animation: fadeIn 3s ease-in-out;
+    -fx-effect: dropshadow(gaussian, rgba(255, 215, 0, 0.8), 30, 0.5, 0, 0);
+}
+
+.animated-text-name {
+    -fx-font-family: 'Roboto';
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+    -fx-fill: white;
+    -fx-text-alignment: center;
+    -fx-animation: fadeIn 3s ease-in-out;
+}
+
+.animated-text-followers {
+    -fx-font-family: 'Roboto';
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+    -fx-fill: white;
+    -fx-text-alignment: center;
+    -fx-animation: fadeIn 3s ease-in-out;
+}
